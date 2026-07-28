@@ -17,4 +17,4 @@ In this project, I worked with a team to predict a customer purchase behavior. T
   * $60 / 40$ train-test split
 
 # Key Predictors
--`price`, `view_count`, `cart_count`, `session_duration_seconds`, `total_events_in_session`, `unique_categories_viewed`, `event_hour`, `is_weekend`
+- `price`, `view_count`, `cart_count`, `session_duration_seconds`, `total_events_in_session`, `unique_categories_viewed`, `event_hour`, `is_weekend`
