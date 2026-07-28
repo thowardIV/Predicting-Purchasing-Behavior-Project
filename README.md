@@ -7,3 +7,5 @@ In this project, I worked with a team to predict a customer purchase behavior. T
 1. **Predict Purchase Likelihood:** Build machine learning models to forecast whether a session ends in a purchase ($1 = \text{Yes}, 0 = \text{No}$).
 2. **Identify Behavioral Drivers:** Determine which customer actions (e.g., cart adds, total events, view counts) most strongly indicate intent to buy.
 3. **Model Optimization:** Compare performance across multiple algorithms (linear baselines, tree-based models, and neural networks) to balance accuracy and computational efficiency for targeted marketing.
+
+## Dataset
