@@ -10,3 +10,11 @@ In this project, I worked with a team to predict a customer purchase behavior. T
 
 ## Dataset
 - <a href="https://github.com/thowardIV/Predicting-Purchasing-Behavior-Project/blob/main/ecommerce_sample.zip">Dataset</a>
+
+## Preprocessing
+- **Granularity:** User session level aggregated by product interactions
+- **Key Features:** `price`, `view_count`, `cart_count`, `session_duration_seconds`, `total_events_in_session`, `unique_categories_viewed`, and temporal bins (`event_hour`, `is_weekend`)
+- **Preprocessing Highlights:**
+  * Group by product an session
+  * Removed missing values
+  * $60 / 40$ train-test split
