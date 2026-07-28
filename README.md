@@ -9,3 +9,4 @@ In this project, I worked with a team to predict a customer purchase behavior. T
 3. **Model Optimization:** Compare performance across multiple algorithms (linear baselines, tree-based models, and neural networks) to balance accuracy and computational efficiency for targeted marketing.
 
 ## Dataset
+- <a href="https://github.com/thowardIV/Predicting-Purchasing-Behavior-Project/blob/main/ecommerce_sample.zip">Dataset</a>
