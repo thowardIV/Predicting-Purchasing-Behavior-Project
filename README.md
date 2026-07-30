@@ -34,3 +34,17 @@ We evaluated six different modeling approaches:
 | **Large Neural Net** | 98.53% | Accuracy slightly dropped due to overfitting and added noise (~500s runtime). |
 
 ---
+
+
+
+
+## Visual Insights
+
+### 1. Model Diagnostics & Feature Importance
+
+| Logistic Regression ROC Curve | Feature Importance Breakdown |
+| :---: | :---: |
+| ![Logistic Regression ROC Curve](assets/roccurve.png) | ![Feature Importance Plot](assets/featureimp.png) |
+| *Strong model capability with an AUC of 0.9015[cite: 1].* | *Session duration, view counts, and cart counts dominate predictive power[cite: 1].* |
+
+---
