@@ -45,6 +45,6 @@ We evaluated six different modeling approaches:
 | Logistic Regression ROC Curve | Feature Importance Breakdown |
 | :---: | :---: |
 | ![Logistic Regression ROC Curve](assets/roccurve.png) | ![Feature Importance Plot](assets/featureimp.png) |
-| *Strong model capability with an AUC of 0.9015[cite: 1].* | *Session duration, view counts, and cart counts dominate predictive power[cite: 1].* |
+| *Strong model capability with an AUC of 0.9015.* | *Session duration, view counts, and cart counts dominate predictive power.* |
 
 ---
