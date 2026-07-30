@@ -56,5 +56,5 @@ We evaluated six different modeling approaches:
   <img src="assets/NNCM.png" width="45%" alt="Neural Network Confusion Matrix" />
 </p>
 <p align="center">
-  <em><b>Left:</b> Decision Tree predicting all zeros due to class imbalance[cite: 1]. <b>Right:</b> Neural Network accurately classifying buyers vs non-buyers[cite: 1].</em>
+  <em><b>Left:</b> Decision Tree predicting all zeros due to class imbalance. <b>Right:</b> Neural Network accurately classifying buyers vs non-buyers.</em>
 </p>
