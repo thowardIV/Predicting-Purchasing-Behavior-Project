@@ -11,6 +11,13 @@ In this project, I worked with a team to predict a customer purchase behavior. T
 ## Dataset
 - <a href="https://github.com/thowardIV/Predicting-Purchasing-Behavior-Project/blob/main/ecommerce_sample.zip">Dataset</a>
 
+## Slide Deck
+- <a href="https://github.com/thowardIV/Predicting-Purchasing-Behavior-Project/blob/main/assets/PurchasingBehaviorPresentation.pdf">Slide Deck</a>
+
+## Project Paper
+- <a href="https://github.com/thowardIV/Predicting-Purchasing-Behavior-Project/blob/main/assets/PurchasingBehaviorWriteup.pdf">Project Paper</a>
+
+
 ## Preprocessing
   * Group by product and session
   * Removed missing values
