@@ -48,3 +48,13 @@ We evaluated six different modeling approaches:
 | *Strong model capability with an AUC of 0.9015.* | *Session duration, view counts, and cart counts dominate predictive power.* |
 
 ---
+
+### 2. Confusion Matrices Comparison
+
+<p align="center">
+  <img src="assets/DecTreeCM.png" width="45%" alt="Decision Tree Confusion Matrix" />
+  <img src="assets/NNCM.png" width="45%" alt="Neural Network Confusion Matrix" />
+</p>
+<p align="center">
+  <em><b>Left:</b> Decision Tree predicting all zeros due to class imbalance[cite: 1]. <b>Right:</b> Neural Network accurately classifying buyers vs non-buyers[cite: 1].</em>
+</p>
