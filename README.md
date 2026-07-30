@@ -68,7 +68,7 @@ We evaluated six different modeling approaches:
    * Excessive `total_products_viewed` paired with long duration often signals customer hesitation or lost browsing ("endless browsing"), which correlates negatively with purchase completion.
 2. **Model Selection:**  
    * Complex models outperformed the linear baselines.
-   * The **Small Neural Network** yielded the best balance of predictive power ($98.62\%$ accuracy) and training efficiency (~89s execution time). Adding excess complexity (Large NN) led to overfitting without improving accuracy.
+   * The Small Neural Network yielded the best balance of predictive power ($98.62\%$ accuracy) and training efficiency (~89s execution time). Adding excess complexity (Large NN) led to overfitting without improving accuracy.
 3. **Actionable Marketing Tactics:**  
    * **Triggered Interventions:** Target high-event/high-cart session users with instant checkout nudges or exit-intent offers.
    * **Re-engagement:** Detect users trapped in "endless browsing" (high product views, low cart additions) and show recommended products or simplified category filters to guide decision-making.
