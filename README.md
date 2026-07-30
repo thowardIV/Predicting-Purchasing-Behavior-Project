@@ -58,3 +58,19 @@ We evaluated six different modeling approaches:
 <p align="center">
   <em><b>Left:</b> Decision Tree predicting all zeros due to class imbalance. <b>Right:</b> Neural Network accurately classifying buyers vs non-buyers.</em>
 </p>
+
+---
+
+## Key Insights & Business Recommendations
+
+1. **Browsing vs. Buying Signals:**  
+   * High `cart_count` and `total_events_in_session` strongly signal high intent to buy.
+   * Excessive `total_products_viewed` paired with long duration often signals customer hesitation or lost browsing ("endless browsing"), which correlates negatively with purchase completion.
+2. **Model Selection:**  
+   * Complex models outperformed the linear baselines.
+   * The **Small Neural Network** yielded the best balance of predictive power ($98.62\%$ accuracy) and training efficiency (~89s execution time). Adding excess complexity (Large NN) led to overfitting without improving accuracy.
+3. **Actionable Marketing Tactics:**  
+   * **Triggered Interventions:** Target high-event/high-cart session users with instant checkout nudges or exit-intent offers.
+   * **Re-engagement:** Detect users trapped in "endless browsing" (high product views, low cart additions) and show recommended products or simplified category filters to guide decision-making.
+
+---
